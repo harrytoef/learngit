@@ -10,12 +10,12 @@ public class Go {
 		Scanner sc = new Scanner(System.in);
 		while(flag==0){
 			int i=0;
-			System.out.println("功能选择");
-			System.out.println("1新建券商");
-			System.out.println("2新建股票");
-			System.out.println("3券商选择股票");
-			System.out.println("4更改股票价格");
-			System.out.println("5退出");
+			System.out.println("menu -> input:");
+			System.out.println("new a broker: 1");
+			System.out.println("new a stock: 2");
+			System.out.println("brocker buys stock: 3");
+			System.out.println("change stock's price: 4");
+			System.out.println("exit: 5");
 			i = sc.nextInt();
 			switch(i){
 			
