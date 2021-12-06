@@ -14,7 +14,7 @@ public class Stock extends StockMan{
 	}
 	
 	public void setValue(int v){
-		super._notify();
 		this.value = v;
+		super._notify();
 	}
 }
